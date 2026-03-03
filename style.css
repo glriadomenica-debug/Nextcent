@@ -1,0 +1,108 @@
+/* untuk membuat website jadi rapih (starter) */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  width: 1100px;
+  margin: auto;
+}
+
+/* navbar (membungkus dari <header> sampai </header>*/
+.navbar {
+  background-color: white;
+  padding: 18px 0px;
+}
+
+/* hodi hafahe logo no menu */
+.nav-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-right {
+  display: flex;
+  gap: 22px;
+  align-items: center;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 30px;
+  list-style: none; /* Menghilangkan * di ul list */
+  /* cursor: pointer; */
+}
+
+.btn {
+  background: #4caf4f;
+  color: aliceblue;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 2.78px;
+  cursor: pointer;
+}
+
+/* Section hero */
+
+.hero {
+  background-color: #f5f7fa;
+  padding: 80px 0px;
+  height: 415px;
+  /* display: flex; */
+}
+
+/* hodi hafahe text ho ilustrasaun */
+.hero-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-text h1 {
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+
+.hero-text span {
+  color: #4caf4f;
+}
+
+.hero-text p {
+  font-size: 12px;
+  color: grey;
+  margin-bottom: 10px;
+}
+
+/* section client */
+.client {
+  background-color: white;
+}
+
+.client-text {
+  padding: 13px;
+  text-align: center;
+}
+
+.client-text p {
+  font-size: 12px;
+  color: grey;
+  margin-bottom: 10px;
+}
+
+.vector{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  gap: 94px;
+ 
+}
+ /* .vector {
+  width: 801px;
+  height: 68px;
+  justify-content: space-between;
+  flex-direction: row;
+ } */
