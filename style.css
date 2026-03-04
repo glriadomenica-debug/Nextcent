@@ -185,6 +185,7 @@
   color: grey;
 }
 
+/* section achievement */
 .achievement {
   background: silver;
 }
@@ -212,6 +213,7 @@
 .ach-count{
   display: flex;
   gap: 10px;
+
 }
 .count h1{
   font-size: 20px;
@@ -219,4 +221,12 @@
   letter-spacing: 0%;
   font-weight: bold;
   color: #4d4d4d;
+  height: 26px;
+  
+}
+.count p {
+  height: 17px;
+  font-size: 11px;
+  letter-spacing: 0%;
+  line-height: 17px;
 }
