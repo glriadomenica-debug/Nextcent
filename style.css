@@ -178,14 +178,19 @@
 
 .unlock-text h1 {
   font-size: 25px;
+  letter-spacing: 0%;
+  line-height: 31px;
+  font-weight:600;
+  height: 62px;
+  color: #4d4d4d;
 }
 
 .unlock-text p {
   font-size: 10px;
   color: grey;
-  letter-spacing: 0%;
   line-height: 14px;
   height: 56px;
+  margin: 10px;
 }
 
 /* section achievement */
