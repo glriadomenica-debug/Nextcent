@@ -183,6 +183,9 @@
 .unlock-text p {
   font-size: 10px;
   color: grey;
+  letter-spacing: 0%;
+  line-height: 14px;
+  height: 56px;
 }
 
 /* section achievement */
