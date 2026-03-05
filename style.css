@@ -196,6 +196,11 @@
 /* section achievement */
 .achievement {
   background: silver;
+  padding-top: 44px;
+  padding-bottom: 44px;
+  padding-right: 100px;
+  padding-left: 100px;
+  justify-content: space-between;
 }
 
 .ach-text h1 {
@@ -221,7 +226,6 @@
 .ach-count{
   display: flex;
   gap: 10px;
-
 }
 .count h1{
   font-size: 20px;
@@ -238,3 +242,25 @@
   letter-spacing: 0%;
   line-height: 17px;
 }
+
+/* section frame16 */
+.frame16{
+  height: 210px;
+  padding-top: 22.27px;
+  padding-bottom: 22.27px;
+  gap: 22.27px;
+}
+.frame-text {
+  text-align: center;
+}
+.frame-text h1 {
+  height: 106px;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 53px;
+  letter-spacing: 0%;
+  color: black;
+}
+
+
+
