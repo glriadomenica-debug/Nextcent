@@ -262,5 +262,25 @@
   color: black;
 }
 
+.footer {
+    background: black ;
+    color:white;
+    padding:20px;
+}
+
+.footer-container {
+  display:flex;
+  gap:500px;
+}
+
+.social_icons {
+  display:flex;
+  padding-bottom: 20px;
+}
+.type_3 {
+  display:flex;
+  gap:7px
+
+}
 
 
